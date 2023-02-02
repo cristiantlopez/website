@@ -1,28 +1,28 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Cristian Tabares
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Cristian
+last_name: Tabares
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: ⚛️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Researcher on Quantum Technologies
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: QUINFOG @ CSIC
+    url: https://quinfog.hbar.es
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include quantum computation and quantum simulation, quantum optics and nanophotonics, and the interplay between quantum hardware and software.
 
 # Interests to show in About widget
 interests:
