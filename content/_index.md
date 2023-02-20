@@ -52,7 +52,7 @@ sections:
         - title: Student Research Fellow
           company: Institute of Photonic Sciences - ICFO
           company_url: 'https://www.icfo.eu/research-group/22/tqnp/home/437/'
-          company_logo: logo-ICFO
+          company_logo: logo-icfo
           location: Barcelona
           date_start: '2021-07-11'
           date_end: '2021-09-30'
