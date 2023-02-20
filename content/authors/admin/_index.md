@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Researcher on Quantum Technologies
+role: Researcher in Quantum Technologies
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -77,7 +77,7 @@ email: ''
 highlight_name: true
 ---
 
-I'm a researcher on quantum technologies at QUINFOG (IFF-CSIC) under the supervision of Alejandro González-Tudela and Diego Porras. My research interests include quantum computation and quantum simulation, quantum optics and nanophotonics, and the interplay between quantum hardware and software.
+I'm a researcher in quantum technologies at QUINFOG (IFF-CSIC) under the supervision of Alejandro González-Tudela and Diego Porras. My research interests include quantum computation and quantum simulation, quantum optics and nanophotonics, and the interplay between quantum hardware and software.
 {style="text-align: justify;"}
 
 I explore the different ways that atoms and other quantum emitters interact with light and how to harness them to improve current quantum technologies 🖥️⚛️.
