@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: 
-date: 2022-10-24
+date: 2023-02-20
 type: landing
 
 sections:
@@ -12,22 +12,22 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
-  - block: features
-    content:
-      title: Skills
-      items:
-        - name: R
-          description: 90%
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
-          icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
-          icon_pack: fas
+#  - block: features
+#    content:
+#      title: Skills
+#      items:
+#        - name: R
+#          description: 90%
+#          icon: r-project
+#          icon_pack: fab
+#        - name: Statistics
+#          description: 100%
+#          icon: chart-line
+#          icon_pack: fas
+#        - name: Photography
+#          description: 10%
+#          icon: camera-retro
+#          icon_pack: fas
   - block: experience
     content:
       title: Experience
@@ -40,66 +40,70 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin00
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Researcher
+          company: QUINFOG - Spanish Research Council (IFF-CSIC)
+          company_url: 'https://quinfog.hbar.es/'
+          company_logo: Logo-CSIC
+          location: Madrid
+          date_start: '2021-11-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              Exploring the possibilities of quantum nanophotonics and waveguide-QED platforms to improve quantum computers and simulators.
+        - title: Student Research Fellow
+          company: Institute of Photonic Sciences - ICFO
+          company_url: 'https://www.icfo.eu/research-group/22/tqnp/home/437/'
+          company_logo: logo-ICFO
+          location: Barcelona
+          date_start: '2021-07-11'
+          date_end: '2021-09-30'
+          description: Student Research Fellowship in the Theoretical Quantum Nanophotonics Group to study the energy tranport in three-dimensional disordered atomic gases.
+        - title: JAE Intro Research Fellow
+          company: Institute of Material Sciences (ICMM-CSIC)
+          company_url: 'https://wp.icmm.csic.es/npqsic/'
+          company_logo: Logo-CSIC
+          location: Madrid
+          date_start: '2021-09-01'
+          date_end: '2021-05-31'
+          description: Research Fellowship in the Novel Platforms and Nano-devices for Quantum Simulation and Computation Group.
     design:
       columns: '2'
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+#  - block: accomplishments
+#    content:
+#      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+#      title: 'Accomplish&shy;ments'
+#      subtitle:
+#      # Date format: https://wowchemy.com/docs/customization/#date-format
+#      date_format: Jan 2006
+#      # Accomplishments.
+#      #   Add/remove as many `item` blocks below as you like.
+#      #   `title`, `organization`, and `date_start` are the required parameters.
+#      #   Leave other parameters empty if not required.
+#      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+#      items:
+#        - certificate_url: https://www.coursera.org
+# #         date_end: ''
+#          date_start: '2021-01-25'
+#          description: ''
+#          organization: Coursera
+#          organization_url: https://www.coursera.org
+#         title: Neural Networks and Deep Learning
+#          url: ''
+#        - certificate_url: https://www.edx.org
+#          date_end: ''
+# #         date_start: '2021-01-01'
+#          description: Formulated informed blockchain models, hypotheses, and use cases.
+#          organization: edX
+#          organization_url: https://www.edx.org
+#          title: Blockchain Fundamentals
+#          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+#        - certificate_url: https://www.datacamp.com
+#          date_end: '2020-12-21'
+#          date_start: '2020-07-01'
+#          description: ''
+#          organization: DataCamp
+#          organization_url: https://www.datacamp.com
+#          title: 'Object-Oriented Programming in R'
+#          url: ''
     design:
       columns: '2'
   - block: collection
